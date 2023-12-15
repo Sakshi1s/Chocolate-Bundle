@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chocolate Bundle Customizer</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="customizer">
+      <h2>Chocolate Bundle Customizer</h2>
+
+      <!-- Chocolate Items -->
+      <div class="chocolate-item" id="darkChocolate">
+        <img src="images/ch1.jpg" alt="Dark Chocolate" />
+        <span>Dark Chocolate</span>
+        <input type="number" id="darkChocolateQuantity" min="0" value="0" />
+      </div>
+
+      <div class="chocolate-item" id="milkChocolate">
+        <img src="images/ch2.jpg" alt="Milk Chocolate" />
+        <span>Milk Chocolate</span>
+        <input type="number" id="milkChocolateQuantity" min="0" value="0" />
+      </div>
+
+      <div class="chocolate-item" id="whiteChocolate">
+        <img src="images/ch3.jpg" alt="White Chocolate" />
+        <span>White Chocolate</span>
+        <input type="number" id="whiteChocolateQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="chocolateBall">
+        <img src="images/ch4.jpg" alt="Chocolate Ball" />
+        <span> Chocolate Ball</span>
+        <input type="number" id="chocolateBallQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="brownChocolate">
+        <img src="images/ch5.jpg" alt="BrownChocolate" />
+        <span>Brown Chocolate</span>
+        <input type="number" id="brownChocolateQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="chocolateBar">
+        <img src="images/ch6.jpg" alt="ChocolateBar" />
+        <span>Chocolate Bar</span>
+        <input type="number" id="chocolateBarQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="chocolateCupcake">
+        <img src="images/ch7.jpg" alt="Chocolatecup" />
+        <span>Chocolate Cupcake</span>
+        <input type="number" id="chocolateCupcakeQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="chocolateIcecream">
+        <img src="images/ch8.jpg" alt="Chocolateice" />
+        <span>Chocolate Ice Cream</span>
+        <input type="number" id="chocolateIceQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="broChocolate">
+        <img src="images/ch9.jpg" alt="Milk Chocolate Cake" />
+        <span>Brown Chocolate Cake</span>
+        <input type="number" id="broChocolateQuantity" min="0" value="0" />
+      </div>
+      <div class="chocolate-item" id="chocolateCake">
+        <img src="images/ch10.jpg" alt="Chocolate" />
+        <span>Chocolate Cake</span>
+        <input type="number" id="chocolateCakeQuantity" min="0" value="0" />
+      </div>
+
+      <button onclick="calculateTotalPrice()">Calculate Total Price</button>
+
+      <!-- Display Total Price -->
+      <div id="total-price"></div>
+    </div>
+  </body>
+</html>
